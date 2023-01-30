@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 .container {
   max-width: 1170px;
   margin: auto;
@@ -329,4 +333,61 @@ nav ul a li {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #000000;
+}
+
+footer {
+  color: #FFFFFF;
+  background: #020202;
+}
+footer h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  /* identical to box height, or 165% */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.footer__content {
+  padding-top: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  /* identical to box height, or 165% */
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social img {
+  margin: 0 5px;
+}
+
+.footer__table-1 {
+  margin-left: 640px;
+}
+.footer__table-1 p {
+  margin-bottom: 35px;
+}
+.footer__table-1 ul {
+  padding: 0;
+}
+.footer__table-1 ul li {
+  margin-bottom: 12px;
+  list-style: none;
+}
+
+.footer__table-2 p {
+  margin-bottom: 35px;
+}
+.footer__table-2 ul {
+  padding: 0;
+}
+.footer__table-2 ul li {
+  margin-bottom: 12px;
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */
