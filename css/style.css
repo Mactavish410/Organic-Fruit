@@ -29,7 +29,10 @@ nav ul a li {
 }
 
 .nav__logo {
-  margin-right: 200px;
+  margin: auto 200px auto 0;
+  height: 20px;
+  text-align: center;
+  align-items: center;
 }
 
 .icon__instagram {
@@ -66,7 +69,7 @@ nav ul a li {
   color: #000000;
 }
 .main__text a {
-  padding: 3px 10px;
+  padding: 4px 20px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -76,4 +79,88 @@ nav ul a li {
   background: #000000;
   border: 1px solid #000000;
   border-radius: 100px;
+}
+
+.cards {
+  margin-bottom: 240px;
+}
+
+.cards__content h2 {
+  margin-top: 60px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+.cards__content p {
+  padding: 20px 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+
+.cards__cards {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cards__info h4 {
+  margin: 17px auto;
+  width: 165px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.cards__info div {
+  margin-bottom: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+.cards__info a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #000000;
+}
+
+.cards-block__block {
+  background: rgba(204, 204, 204, 0.3);
+}
+
+.cards-block__block:nth-child(2) {
+  background: rgba(204, 204, 204, 0.6);
+}
+
+.cards-block__content {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
