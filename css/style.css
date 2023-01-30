@@ -153,6 +153,10 @@ nav ul a li {
   color: #000000;
 }
 
+.colors {
+  padding-bottom: 290px;
+}
+
 .cards-block__block {
   background: rgba(204, 204, 204, 0.3);
 }
@@ -200,4 +204,129 @@ nav ul a li {
 .cards-block__content-row {
   justify-content: flex-end;
   text-align: right;
+}
+
+.colors__content {
+  text-align: center;
+}
+.colors__content h2 {
+  margin: 190px 0 70px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+.colors__content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+
+.colors__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.colors__circle {
+  width: 33%;
+  margin-bottom: 110px;
+  align-items: center;
+  text-align: center;
+}
+.colors__circle div {
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+.colors__circle p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+}
+
+.colors__1 {
+  background: #21F7EC;
+}
+
+.colors__2 {
+  background: #33D3BC;
+}
+
+.colors__3 {
+  background: #18A5C6;
+}
+
+.colors__4 {
+  background: #D38F62;
+}
+
+.colors__5 {
+  background: #F94C43;
+}
+
+.colors__6 {
+  background: #D399FF;
+}
+
+.people {
+  height: 500px;
+  background: #F0F0F0;
+}
+
+.people__content {
+  position: relative;
+  top: -185px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.people__block {
+  width: 290px;
+}
+.people__block div {
+  margin: 35px 0 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+.people__block p {
+  margin-bottom: 42px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.people__block a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */
