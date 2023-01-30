@@ -162,5 +162,42 @@ nav ul a li {
 }
 
 .cards-block__content {
+  padding: 76px 0 51px 0;
   display: flex;
+}
+.cards-block__content div {
+  margin: 50px 50px;
+  width: 500px;
+}
+.cards-block__content div h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+}
+.cards-block__content div p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+}
+.cards-block__content div a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: right;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #000000;
+}
+
+.cards-block__content-row {
+  justify-content: flex-end;
+  text-align: right;
 }/*# sourceMappingURL=style.css.map */
